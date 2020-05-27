@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --success-color:#2ecc71;
+    --error-color:#e74c3c;
+}
+
+body{
+    background: #f9fafb;
+    font-family: 'Open sans', sans-serif;
+    min-height: 100vh;
+}
+
+.form-group label{
+    color: #777;
+}
+
+.form-group.success input{
+    border:1px solid var(--success-color);
+}
+
+.form-group.error input{
+    border:1px solid var(--error-color);
+}
+
+small{
+    display: none;
+}
+
+.form-group.error small{
+    display: block;
+}
+
+.btn{
+    background-color: #3489db;
+    color: white;
+}
